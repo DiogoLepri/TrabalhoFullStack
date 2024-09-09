@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de cadastros</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="2343535.png">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de pessoas</h1>
+
+
+        <div id="add-tab" class="tab-content active">
+            
+            <form id="addForm">
+                <div class="formField">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="formField">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" required>
+                </div>
+                <div class="formField">
+                    <label for="phone">Telefone:</label>
+                    <input type="text" id="phone" required>
+                </div>
+                <button type="submit">Adicionar cadastro</button>
+            </form>
+            <div class="message" style="display: none;"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
